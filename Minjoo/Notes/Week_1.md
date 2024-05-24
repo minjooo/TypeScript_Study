@@ -71,3 +71,19 @@ sum(1,2,3);
 sum(2,3);
 
 ``` 
+#
+#
+### ECT - var / let / const 차이
+- var : 전역 또는 함수 범위
+- let / const : 전역 또는 블럭 범위
+#
+- var : 업데이트O 재선언O
+- let : 업데이트O 재선언X
+- const : 업데이트X 재선언X
+#
+호이스팅(선언이 맨위로 이동되는 JS의 특징)시
+- var : undefined으로 초기화
+- let / const : 초기화되지 않음
+#
+- var / let : 선언 이후 초기화 가능
+- const : 선언과 동시에 초기화 필수
